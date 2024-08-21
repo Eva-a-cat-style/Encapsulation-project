@@ -1,9 +1,9 @@
-public class Print {
+public class Main {
 
-    public static void print(String[] args) {
+    public static void main(String[] args) {
         Employee employee = new Employee("Eva","Zaslavskaya",
                 "Developer in the near future...", "Not found :(",
-                "Not exist",20);
+                ":Not exist",20);
 
         employee.display();
 
